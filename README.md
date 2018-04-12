@@ -20,13 +20,13 @@ $('select').betterSelect({
 
 ```
 var args = {
-	inputClass: '',								// Specify the classes for the input search field
-    inputPlaceholder: 'Type here...',			// Specify the placeholder for the input search field
-    listMaxHeight: 0,							// Set a maximum height for the results list
-    											// Default is next positioned parents height
-    listSpace: 10,								// Offsets the results list from the search field
-    inline: false,								// When true, the results list will appear inline with content
-    selectedOption: function() {}				// A callback used to trigger events when an option is selected
+    inputClass: '',						// Specify the classes for the input search field
+    inputPlaceholder: 'Type here...',	// Specify the placeholder for the input search field
+    listMaxHeight: 0,					// Set a maximum height for the results list
+    									// Default is next positioned parents height
+    listSpace: 10,						// Offsets the results list from the search field
+    inline: false,						// When true, the results list will appear inline with content
+    selectedOption: function() {}		// A callback used to trigger events when an option is selected
 };
 ```
 
