@@ -1,0 +1,52 @@
+/**
+ * Better Select (Copyright 2018 Richard Hedges)
+ * License: MIT License (https://github.com/richardhedges/Better-Select/blob/master/LICENSE)
+ */
+.better-select {
+	position: relative;
+	z-index: 9999;
+}
+
+.better-select select {
+	display: none !important;
+}
+
+.better-select ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0 0 0 20px;
+}
+
+.better-select ul li {
+	cursor: default;
+}
+
+.better-select ul li:not(.title) {
+	cursor: pointer;
+}
+
+.better-select ul li.selected {
+	background-color: black;
+	color: white;
+}
+
+.better-select .options-list {
+	width: 100%;
+	padding: 10px 14px;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: #ffffff;
+	border: 1px solid #ced4da;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	overflow-y: scroll;
+	display: none;
+}
+
+.better-select .options-list.inline {
+	position: static;
+}
