@@ -31,7 +31,6 @@ var args = {
 ```
 
 
-<br>
 ##### Notice
 
 This plugin was created with two single projects in mind that required the use of multiple optgroups in multiple levels of a single select. The plugin successfully accomplishes it's intended purpose however does not yet update the selected items in the original text field. This will be added to the next update, however in the mean time you'll be required to collate the values of each `li` element with a class of `selected` as a child of `.better-select .options-list`
